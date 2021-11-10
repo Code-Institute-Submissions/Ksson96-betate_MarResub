@@ -6,13 +6,14 @@
     margin: 0;
     padding: 0;
     border: none;
+    backdrop-filter: unset;
     
 }
 
 body {
     font-family: Abel, sans-serif;
-    
-    
+
+    background-color:black;
     
     
 }
@@ -21,7 +22,11 @@ body {
 
 header {
     height: 100px;
+    width:100%;
     background-color:black;
+    position:sticky;
+
+    
     
     
     
@@ -76,35 +81,49 @@ li a:hover {
 .home {
     width: 100%; 
     height:600px;
-    overflow:hidden;
-    
-
-     
-}
-
-#front-img {
-    width:100%;
-    height:100%;
-    background-image: url(../images/two-gamers.jpg);
+    background-image: url(../images/New-home1.jpg);
     background-repeat: no-repeat;
-    background-size:100%;
-    filter:blur(2px); 
-    transform:scale(1.1);
-    margin-top: -25px;
-    background-position-y: -180px;
+    background-size:cover; 
+    background-attachment:unset;
+    z-index: -2;
+    position:relative;
+    
+ 
     
 }
 
- #welcome {
+
+
+ #foreground-color {
     width: 100%;
     height: 100%;
-    background-color:rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(3px);
+    position:relative;
+    z-index: -1;
+    
+    
     
 } 
+
+#welcome {
+
+    width:60%;
+    margin:0 auto;
+    text-align:center;
+    
+    
+}
+
+#welcome > h2 {
+    font-weight:800;
+    color:white;
+}
+
 
 
 .partners {
     background-color: black;
+    
 
 }
 
