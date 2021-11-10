@@ -10,6 +10,7 @@
 
 body {
     font-family: Abel, sans-serif;
+    background-color: black;
     
 }
 
@@ -20,15 +21,42 @@ h1 {
 }
 #logo {
     float:left;
-    margin: 20px 0 0 20px;
-}
-nav {
-    float:right;
+    margin: 40px 0 0 50px;
+    font-size: 48px;
+    font-weight: 300;
+    color: #0577CE;
     
 }
 
-nav li {
+#logo > span {
+    color:#75C1FB ;
+    padding:2px;
+}
+nav {
+    float:right;
+    margin: 60px 5% 0 0;
+    
+      
+}
+
+li {
     list-style-type: none;
-    padding: 5px;
+    padding: 60px;
+    display: inline;
+    font-size: 32px;
+    font-weight: 200;
+    
+   
+}
+
+li a  {
+    text-decoration: none;
+    color:white;
+    
+    
+}
+
+li a:hover {
+    text-decoration: underline;
 }
 
