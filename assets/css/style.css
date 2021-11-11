@@ -95,9 +95,10 @@ li a:hover {
 }
 
 #home-img {
-    background-image: url(../images/New-home1.jpg);
+    background-image: url(../images/two-gamers.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position:bottom;
     height: 100%;
     width: 100%;
 
@@ -111,7 +112,7 @@ li a:hover {
     height: 100%;
     backdrop-filter: blur(3px);
     z-index: 0;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(4, 7, 4, 0.2)
 
 
 
@@ -136,7 +137,7 @@ li a:hover {
     font-size: 36px;
     font-weight: 500;
     color: white;
-    text-shadow: 10px 10px 15px #000;
+    text-shadow: 5px 5px 3px black;
     text-align: center;
 
 }
@@ -233,6 +234,8 @@ li a:hover {
 #about-bg {
     background-image: url('../images/about-bg.jpg');
     height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #about-content {
@@ -245,7 +248,7 @@ li a:hover {
 #about-content h2 {
     display: inline-block;
     color: white;
-    text-shadow: 10px 10px 20px black;
+    text-shadow: 4x 10px 10px black;
     font-size: xx-large;
 
 }
