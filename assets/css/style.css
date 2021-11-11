@@ -134,7 +134,7 @@ li a:hover {
     
 }
 
-#welcome > h3 {
+#welcome a {
     color:white;
     margin-top:30px;
     font-size: 30px;
@@ -155,13 +155,23 @@ li a:hover {
 #partners {
     width: 80%;
     height:100%;
-    margin: 0 auto;
 
 }
 
-#partners > h2 {
+#partner-heading {
     color:white;
     font-weight: 300;
     text-align:center;
+    padding-top: 20px;
+    text-decoration: underline;
 }
+
+/* Partner logo */
+.partner-container  > img {
+
+    max-width: 50px;
+    max-height: 50px;
+}
+    
+
 
