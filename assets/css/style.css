@@ -82,6 +82,7 @@ li a {
 
 li a:hover {
     text-decoration: underline;
+    color:rgb(17, 100, 17);
 }
 
 .home {
@@ -103,6 +104,7 @@ li a:hover {
     height: 100%;
     width: 100%;
     padding: 0px;
+    overflow: hidden;
 
 
 }
@@ -231,7 +233,9 @@ li a:hover {
 
 .about-container {
     height: 700px;
+    border-bottom: 1px solid rgb(10, 54, 10);
     border-top: 1px solid rgb(10, 54, 10);
+    
 }
 
 #about-bg {
@@ -239,6 +243,8 @@ li a:hover {
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
+    
 }
 
 #about-content {
@@ -257,6 +263,8 @@ li a:hover {
     text-align: left;
     margin-top: 5%;
     margin-left: 25%;
+    max-height: 80%;
+    overflow-x: hidden;
 
    
     
@@ -282,3 +290,13 @@ li a:hover {
     margin-bottom: 30px;
     text-shadow: 4x 10px 10px black;
 }
+
+/* Application Form */
+
+#form-section {
+    background-color: black;
+    height: 700px;
+   
+}
+
+
