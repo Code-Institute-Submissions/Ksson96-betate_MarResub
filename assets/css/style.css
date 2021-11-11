@@ -45,14 +45,14 @@ h2 {
     margin: 20px 0 0 50px;
     font-size: 48px;
     font-weight: 300;
-    color: #0577CE;
+    color: #66ff6e;
     text-shadow: 2px 2px black;
 
 
 }
 
 #logo>span {
-    color: #75C1FB;
+    color: green;
     padding: 2px;
 }
 
@@ -82,11 +82,10 @@ li a {
 
 li a:hover {
     text-decoration: underline;
-    color:rgb(17, 100, 17);
+    color:#66ff6e;
 }
 
 .home {
-    width: 100%;
     height: 600px;
     border-bottom: 1px solid rgb(10, 54, 10);
     border-top: 1px solid rgb(10, 54, 10);
@@ -102,7 +101,6 @@ li a:hover {
     background-size: cover;
     background-position:bottom;
     height: 100%;
-    width: 100%;
     padding: 0px;
     overflow: hidden;
 
@@ -144,6 +142,7 @@ li a:hover {
     color: white;
     text-shadow: 5px 5px 3px black;
     text-align: center;
+    margin-bottom: 80px;
 
 }
 
@@ -154,6 +153,20 @@ li a:hover {
     text-align: center;
     padding-top: 50px;
 
+
+}
+
+#home-apply {
+    width: 40%;
+    height: 40px;
+    background-color:black;
+    margin: 0 auto;
+    border: 1px solid green;
+    border-radius: 2px;
+}
+
+#welcome a:hover {
+    color: #66ff6e;
 }
 
 /* Partner logo */
@@ -296,13 +309,13 @@ li a:hover {
 
 #form-section {
     background-color: black;
-    height: 700px;
+    height: 800px;
     padding: 1px;
    
 }
 
 #form-container {
-    height: 600px;
+    height: 700px;
     width: 60%;
     color: white;
     border: solid 1px green;
@@ -313,22 +326,33 @@ li a:hover {
 
 form {
     width: 80%;
-    margin-top: 75px;
+    margin-top: 30px;
     margin-left: 10%;
+    overflow: hidden;
 }
 
-form > input {
+form input {
     display: block;
     height: 2em;
     border-radius: 3px;
-    width: 100%;
+    width: 80%;
+    background-color:rgb(19, 19, 19);
+    border: 1px solid green;
+    color: white;
 
     
 }
 
-form label {
+input:focus {
+    border: 1px solid green;
 
 }
+
+
+input:focus {
+    border-color: 1px green solid;
+}
+
 
 .form-input {
     margin-bottom: 30px;
@@ -337,7 +361,34 @@ form label {
 textarea {
     display: block;
     border-radius: 3px;
-    width: 100%;
+    width: 90%;
+    resize: none;
+    border: solid 1px green;
+    background-color:rgb(19, 19, 19);
+
+}
+
+#form-container h3 {
+    text-transform: uppercase;
+    font-size: xx-large;
+    max-width: 30%;
+    letter-spacing: 2px;
+    margin-left: 10%;
+    text-decoration: underline;
+    margin-top: 35px;
+
+
+}
+
+#submit {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 40%;
+    border: 2px green solid;
+    color: white;
+    font-size: 36px;
+    background-color:rgb(19, 19, 19);
+
 
 }
 
