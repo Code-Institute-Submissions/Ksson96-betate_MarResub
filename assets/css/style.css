@@ -87,7 +87,7 @@ li a:hover {
 .home {
     width: 100%;
     height: 600px;
-    border-bottom:2px solid green;
+    border-bottom:1px solid green;
 
 
 
@@ -165,7 +165,6 @@ li a:hover {
     font-weight: 300;
     text-align: center;
     padding-top: 20px;
-    border-bottom: solid 2px green;
     font-size: xx-large;
 }
 
@@ -224,4 +223,29 @@ li a:hover {
 
 }
 
+/* About Us */
 
+.about-container {
+    height: 700px;
+    border-top: solid 1px green;
+}
+
+#about-bg {
+    background-image: url('../images/about-bg.jpg');
+    height: 100%;
+}
+
+#about-content {
+    max-width: 10%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#about-content h2 {
+    display: inline-block;
+    color: white;
+    text-shadow: 10px 10px 20px black;
+    font-size: xx-large;
+
+}
