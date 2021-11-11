@@ -244,7 +244,7 @@ li a:hover {
 
 /* About Us */
 
-.about-container {
+#about-container {
     height: 700px;
     border-bottom: 1px solid rgb(10, 54, 10);
     border-top: 1px solid rgb(10, 54, 10);
