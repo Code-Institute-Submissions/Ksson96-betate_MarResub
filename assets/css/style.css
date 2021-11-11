@@ -13,7 +13,7 @@
 body {
     font-family: Abel, sans-serif;
 
-    background-color:black;
+    background-color:white;
     
     
 }
@@ -32,7 +32,7 @@ header {
     
 }
 
-h1 {
+h1, h2 {
     font-family: Anton, sans-serif;
 }
 #logo {
@@ -59,7 +59,7 @@ nav {
 
 li {
     list-style-type: none;
-    padding: 60px;
+    padding: 60px 60px 0 60px;
     display: inline;
     font-size: 32px;
     font-weight: 200;
@@ -81,15 +81,20 @@ li a:hover {
 .home {
     width: 100%; 
     height:600px;
+    
+
+
+     
+}
+
+#home-img {
     background-image: url(../images/New-home1.jpg);
     background-repeat: no-repeat;
     background-size:cover; 
-    background-attachment:unset;
-    z-index: -2;
-    position:relative;
+    height: 100%;
+    width: 100%;
     
- 
-    
+
 }
 
 
@@ -98,8 +103,11 @@ li a:hover {
     width: 100%;
     height: 100%;
     backdrop-filter: blur(3px);
-    position:relative;
-    z-index: -1;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+
+  
+    
     
     
     
@@ -107,24 +115,43 @@ li a:hover {
 
 #welcome {
 
-    width:60%;
-    margin:0 auto;
+    max-width: 30%;
     text-align:center;
+    display:inline-block;
+    margin-top:5%;
+    margin-left:40%;
     
+ 
     
 }
 
 #welcome > h2 {
-    font-weight:800;
+    font-size: 36px;
+    font-weight:500;
     color:white;
+    text-shadow: 10px 10px 15px #000;
+    
+}
+
+#welcome > h3 {
+    color:white;
+    margin-top:30px;
+    font-size: 30px;
+
 }
 
 
 
 .partners {
     background-color: black;
+    height: 300px;
     
 
 }
 
+#partners {
+    width: 80%;
+    height:100%;
+
+}
 
