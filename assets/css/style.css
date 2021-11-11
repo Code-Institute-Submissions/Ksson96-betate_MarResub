@@ -143,20 +143,24 @@ li a:hover {
 
 }
 
-
+/* Partner logo */
 
 .partners {
     background-color: black;
-    height: 300px;
+    height: 400px;
+    
     
 
 }
 
-#partners {
-    width: 80%;
-    height:100%;
-
+.partner-container {
+    
+    text-align: center;
+    vertical-align: middle;
+    
+    
 }
+
 
 #partner-heading {
     color:white;
@@ -166,12 +170,48 @@ li a:hover {
     text-decoration: underline;
 }
 
-/* Partner logo */
-.partner-container  > img {
 
-    max-width: 50px;
-    max-height: 50px;
+.partner-container > div {
+    padding: 10px;
+    text-align: bottom;
 }
+
+
+.partner-container img {
+
+    max-width: 100px;
+    max-height: 100px;
+    padding-top: 25px;
+    margin: 0 auto 0 auto;
+    
+
+
+    
+}
+
+
+
+.partner-container h4{
+    color:white;
+    display:inline-block;
+
+
+}
+
+#ea {
+    max-width: 75px;
+    max-height: 75px;
+
+}
+
+#bethesda {
+
+    max-width: 125px;
+    max-height: 125px;
+    
+}
+
+
     
 
 
