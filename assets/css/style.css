@@ -1,60 +1,61 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
     backdrop-filter: unset;
-    
+
 }
 
 body {
     font-family: Abel, sans-serif;
 
-    background-color:white;
-    
-    
+    background-color: white;
+
+
 }
 
 /*Header and Nav*/
 
 header {
     height: 100px;
-    width:100%;
-    background-color:black;
-    position:sticky;
+    width: 100%;
+    background-color: black;
+    position: sticky;
 
-    
-    
-    
-    
+
+
+
+
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: Anton, sans-serif;
 }
+
 #logo {
-    float:left;
+    float: left;
     margin: 20px 0 0 50px;
     font-size: 48px;
     font-weight: 300;
     color: #0577CE;
     text-shadow: 2px 2px black;
-   
-    
+
+
 }
 
-#logo > span {
-    color:#75C1FB ;
-    padding:2px;
+#logo>span {
+    color: #75C1FB;
+    padding: 2px;
 }
+
 nav {
-    float:right;
+    float: right;
     margin: 40px 5% 0 0;
-    
-      
+
+
 }
 
 li {
@@ -63,15 +64,15 @@ li {
     display: inline;
     font-size: 32px;
     font-weight: 200;
-    
-   
+
+
 }
 
-li a  {
+li a {
     text-decoration: none;
-    color:white;
-    
-    
+    color: white;
+
+
 }
 
 li a:hover {
@@ -79,66 +80,66 @@ li a:hover {
 }
 
 .home {
-    width: 100%; 
-    height:600px;
-    
+    width: 100%;
+    height: 600px;
 
 
-     
+
+
 }
 
 #home-img {
     background-image: url(../images/New-home1.jpg);
     background-repeat: no-repeat;
-    background-size:cover; 
+    background-size: cover;
     height: 100%;
     width: 100%;
-    
+
 
 }
 
 
 
- #foreground-color {
+#foreground-color {
     width: 100%;
     height: 100%;
     backdrop-filter: blur(3px);
     z-index: 0;
     background-color: rgba(0, 0, 0, 0.2);
 
-  
-    
-    
-    
-    
-} 
+
+
+
+
+
+}
 
 #welcome {
 
     max-width: 30%;
     margin: 0 auto;
     padding-top: 70px;
-   
 
-    
- 
-    
+
+
+
+
 }
 
-#welcome > h2 {
+#welcome>h2 {
     font-size: 36px;
-    font-weight:500;
-    color:white;
+    font-weight: 500;
+    color: white;
     text-shadow: 10px 10px 15px #000;
-    text-align:center;
-    
+    text-align: center;
+
 }
 
 #welcome a {
-    color:white;
-    margin-top:30px;
+    color: white;
+    margin-top: 30px;
     font-size: 30px;
-    text-align:center;
+    text-align: center;
     padding-top: 50px;
 
 }
@@ -148,32 +149,35 @@ li a:hover {
 .partners {
     background-color: black;
     height: 400px;
-    
-    
+
+
 
 }
 
 .partner-container {
-    
-    text-align: center;
-    vertical-align: middle;
-    
-    
+
+
+    height: 100%;
+    display: table;
+    width: 100%;
 }
 
 
 #partner-heading {
-    color:white;
+    color: white;
     font-weight: 300;
-    text-align:center;
+    text-align: center;
     padding-top: 20px;
     text-decoration: underline;
 }
 
+.partner-col {
+    width: 25%;
+}
 
-.partner-container > div {
-    padding: 10px;
-    text-align: bottom;
+
+.partner-container div {
+    columns: 2;
 }
 
 
@@ -181,19 +185,21 @@ li a:hover {
 
     max-width: 100px;
     max-height: 100px;
-    padding-top: 25px;
-    margin: 0 auto 0 auto;
-    
+    padding: 0 10% 0 10%;
 
 
-    
+
+
+
 }
 
 
 
-.partner-container h4{
-    color:white;
-    display:inline-block;
+.partner-container h4 {
+    color: white;
+    display: inline-block;
+    max-width: 100px;
+    max-height: 100px;
 
 
 }
@@ -208,10 +214,5 @@ li a:hover {
 
     max-width: 125px;
     max-height: 125px;
-    
+
 }
-
-
-    
-
-
