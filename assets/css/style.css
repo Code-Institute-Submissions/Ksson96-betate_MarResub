@@ -235,6 +235,7 @@ li a:hover {
     height: 700px;
     border-bottom: 1px solid rgb(10, 54, 10);
     border-top: 1px solid rgb(10, 54, 10);
+    padding: 0px;
     
 }
 
@@ -296,7 +297,49 @@ li a:hover {
 #form-section {
     background-color: black;
     height: 700px;
+    padding: 1px;
    
 }
+
+#form-container {
+    height: 600px;
+    width: 60%;
+    color: white;
+    border: solid 1px green;
+    font-size: 24px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+form {
+    width: 80%;
+    margin-top: 75px;
+    margin-left: 10%;
+}
+
+form > input {
+    display: block;
+    height: 2em;
+    border-radius: 3px;
+    width: 100%;
+
+    
+}
+
+form label {
+
+}
+
+.form-input {
+    margin-bottom: 30px;
+}
+
+textarea {
+    display: block;
+    border-radius: 3px;
+    width: 100%;
+
+}
+
 
 
