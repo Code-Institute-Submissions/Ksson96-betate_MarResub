@@ -414,32 +414,28 @@ footer div {
     float:left;
     display:inline;
     background-color:black;
+    width: 50%;
 
   
 }
 
-
-#social-media-container {
-    width: 30%;
-    
-
+#social-media-container{
+    text-align: center;
 }
 
 #social-media-container h4 {
 
     color:white;
-    margin-left: 20%;
     margin-top: 20px;
     margin-bottom: 40px;
     width:fit-content;
     font-size: larger;
+    display:inline-block;
+    
     
 }
 
 
-#contact-info {
-    width: 70%;
-}
 
 #social-media li {
     color: white;
@@ -450,10 +446,31 @@ footer div {
 
 
 
+
 #social-media i {
     font-size: 250%;
     color: green;
-    margin-left: 25%;
     text-decoration: none;
 
+}
+
+#contact-info ul {
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+#contact-info h4 {
+    color: white;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-left: 5%;
+
+}
+
+
+
+#contact-info li {
+    color: white;
+    margin-top: 5px;
 }
