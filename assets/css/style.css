@@ -305,6 +305,40 @@ li a:hover {
     text-shadow: 4x 10px 10px black;
 }
 
+/* media quaries for about us section */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    #about-content-bg {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 17%;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    #about-content-bg {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #about-content-bg {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 7.5%;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    #about-content-bg {
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+}
+
 /* Application Form */
 
 #form-section {
@@ -379,6 +413,61 @@ textarea {
 
 
 }
+
+/* Media Queries form section */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    #form-container {
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+    }
+
+    #submit {
+        margin-bottom: 10px;
+        font-size: 75%;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    #form-container {
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+    }
+
+    #submit {
+        margin-bottom: 10px;
+        font-size: 75%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #form-container {
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+    }
+
+    #submit {
+        margin-bottom: 10px;
+        font-size: 75%;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    #form-container {
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+    }
+
+    #submit {
+        margin-bottom: 10px;
+        font-size: 75%;
+    }
+}
+
 
 #submit {
     margin: 0 auto;
@@ -477,54 +566,4 @@ footer div {
 
 
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-    #form-container {
-        width: 90%;
-        margin-left: 5%;
-        height: auto;
-    }
 
-    #submit {
-        margin-bottom: 10px;
-        font-size: 75%;
-    }
-}
-
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-    #form-container {
-        width: 90%;
-        margin-left: 5%;
-        height: auto;
-    }
-
-    #submit {
-        margin-bottom: 10px;
-        font-size: 75%;
-    }
-}
-
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-    #form-container {
-        width: 90%;
-        margin-left: 5%;
-        height: auto;
-    }
-
-    #submit {
-        margin-bottom: 10px;
-        font-size: 75%;
-    }
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1200px) {
-    #form-container {
-        width: 90%;
-        margin-left: 5%;
-        height: auto;
-    }
-
-    #submit {
-        margin-bottom: 10px;
-        font-size: 75%;
-    }
-}
