@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    backdrop-filter: unset;
+
 
 }
 
@@ -63,7 +63,7 @@ nav {
 
 }
 
-li {
+nav li {
     list-style-type: none;
     padding: 60px 60px 0 60px;
     display: inline;
@@ -394,3 +394,66 @@ textarea {
 
 
 
+footer {
+    height: 200px;
+    border-top: solid green 2px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+
+
+}
+
+
+footer div {
+    height: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    float:left;
+    display:inline;
+    background-color:black;
+
+  
+}
+
+
+#social-media-container {
+    width: 30%;
+    
+
+}
+
+#social-media-container h4 {
+
+    color:white;
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width:fit-content;
+    font-size: larger;
+    
+}
+
+
+#contact-info {
+    width: 70%;
+}
+
+#social-media li {
+    color: white;
+    display: inline-block;
+    width: 30%;
+
+}
+
+
+
+#social-media i {
+    font-size: 250%;
+    color: green;
+    margin-left: 25%;
+    text-decoration: none;
+
+}
