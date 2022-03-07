@@ -28,15 +28,8 @@ header {
     width: 100%;
     background-color: black;
     position: sticky;
-
-
-
-
-
 }
-
-h1,
-h2 {
+h1, h2 {
     font-family: Anton, sans-serif;
 }
 
@@ -47,8 +40,6 @@ h2 {
     font-weight: 300;
     color: #66ff6e;
     text-shadow: 2px 2px black;
-
-
 }
 
 #logo>span {
@@ -59,8 +50,6 @@ h2 {
 nav {
     float: right;
     margin: 40px 5% 0 0;
-
-
 }
 
 nav li {
@@ -69,15 +58,11 @@ nav li {
     display: inline;
     font-size: 32px;
     font-weight: 200;
-
-
 }
 
 li a {
     text-decoration: none;
     color: white;
-
-
 }
 
 li a:hover {
@@ -89,10 +74,6 @@ li a:hover {
     height: 600px;
     border-bottom: 1px solid rgb(10, 54, 10);
     border-top: 1px solid rgb(10, 54, 10);
-
-
-
-
 }
 
 #home-img {
@@ -103,8 +84,6 @@ li a:hover {
     height: 100%;
     padding: 0px;
     overflow: hidden;
-
-
 }
 
 
@@ -116,12 +95,6 @@ li a:hover {
     z-index: 0;
     background-color: rgba(4, 7, 4, 0.2);
     border: 1px solid transparent;
-
-
-
-
-
-
 }
 
 #welcome {
@@ -129,11 +102,6 @@ li a:hover {
     max-width: 30%;
     margin: 0 auto;
     padding-top: 70px;
-
-
-
-
-
 }
 
 #welcome>h2 {
@@ -143,7 +111,6 @@ li a:hover {
     text-shadow: 5px 5px 3px black;
     text-align: center;
     margin-bottom: 80px;
-
 }
 
 #welcome a {
@@ -152,8 +119,6 @@ li a:hover {
     font-size: 30px;
     text-align: center;
     padding-top: 50px;
-
-
 }
 
 #home-apply {
@@ -174,9 +139,6 @@ li a:hover {
 .partners {
     background-color: black;
     height: 400px;
-
-
-
 }
 
 #partner-heading {
@@ -188,8 +150,6 @@ li a:hover {
 }
 
 .partner-container {
-
-
     height: 100%;
     width: 80%;
     margin: 0 auto;
@@ -214,17 +174,11 @@ li a:hover {
     text-shadow: 5px 5px 10px black;
     max-height: 50%;
     margin-bottom: 20px;
-
 }
 
 #ea {
     max-width: 50%;
 }
-
-
-
-
-
 
 .partner-container h4 {
     color: white;
@@ -232,14 +186,12 @@ li a:hover {
     max-height: 100px;
     font-weight: 700;
     font-size: 36px;
-    
 }
 
 
 
 .partner-name:hover {
     text-decoration: underline;
-
 }
 
 /* About Us */
@@ -248,8 +200,7 @@ li a:hover {
     height: 700px;
     border-bottom: 1px solid rgb(10, 54, 10);
     border-top: 1px solid rgb(10, 54, 10);
-    padding: 0px;
-    
+    padding: 0px; 
 }
 
 #about-bg {
@@ -257,16 +208,12 @@ li a:hover {
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
-    
+    overflow: hidden; 
 }
 
 #about-content {
     max-width: 90%;
     margin-left: 5%;
-    
-
-
 }
 
 #about-content-bg {
@@ -279,10 +226,6 @@ li a:hover {
     margin-left: 25%;
     max-height: 80%;
     overflow-x: hidden;
-
-   
-    
- 
 }
 
 #about-content h2 {
@@ -294,7 +237,6 @@ li a:hover {
     text-transform: uppercase;
     letter-spacing: 4px;
     margin-top: 30px;
-
 }
 
 #about-content p {
@@ -345,7 +287,6 @@ li a:hover {
     background-color: black;
     height: 800px;
     padding: 1px;
-   
 }
 
 #form-container {
@@ -373,13 +314,10 @@ form input {
     background-color:rgb(19, 19, 19);
     border: 1px solid green;
     color: white;
-
-    
 }
 
 input:focus {
     border: 1px solid green;
-
 }
 
 
@@ -399,7 +337,6 @@ textarea {
     resize: none;
     border: solid 1px green;
     background-color:rgb(19, 19, 19);
-
 }
 
 #form-container h3 {
@@ -410,8 +347,6 @@ textarea {
     margin-left: 10%;
     text-decoration: underline;
     margin-top: 35px;
-
-
 }
 
 /* Media Queries form section */
@@ -477,8 +412,6 @@ textarea {
     color: white;
     font-size: 36px;
     background-color:rgb(19, 19, 19);
-
-
 }
 
 
@@ -489,9 +422,6 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-
-
-
 }
 
 
@@ -504,8 +434,6 @@ footer div {
     display:inline;
     background-color:black;
     width: 50%;
-
-  
 }
 
 #social-media-container{
@@ -520,27 +448,18 @@ footer div {
     width:fit-content;
     font-size: larger;
     display:inline-block;
-    
-    
 }
-
-
 
 #social-media li {
     color: white;
     display: inline-block;
     width: 30%;
-
 }
-
-
-
 
 #social-media i {
     font-size: 250%;
     color: green;
     text-decoration: none;
-
 }
 
 #contact-info ul {
@@ -554,10 +473,7 @@ footer div {
     text-decoration: underline;
     margin-top: 20px;
     margin-left: 5%;
-
 }
-
-
 
 #contact-info li {
     color: white;
