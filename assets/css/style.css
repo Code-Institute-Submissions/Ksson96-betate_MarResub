@@ -4,60 +4,61 @@
     margin: 0;
     padding: 0;
     border: none;
-
-
 }
 
 body {
     font-family: Abel, sans-serif;
-
     background-color: rgba(0, 0, 0, 0.7);
-
-
 }
 
 a {
-
     text-decoration: none;
 }
 
 /*Header and Nav*/
 
 header {
-    height: 100px;
     width: 100%;
     background-color: black;
-    position: sticky;
 }
 h1, h2 {
     font-family: Anton, sans-serif;
 }
 
+#logo-container {
+   padding: 20px;
+   
+   display: inline-block;
+}
+
 #logo {
-    float: left;
-    margin: 20px 0 0 50px;
-    font-size: 48px;
     font-weight: 300;
     color: #66ff6e;
     text-shadow: 2px 2px black;
+    
 }
 
 #logo>span {
     color: green;
-    padding: 2px;
 }
 
 nav {
-    float: right;
-    margin: 40px 5% 0 0;
+    display: inline-flex;
 }
 
 nav li {
+    font-size: 2rem;
     list-style-type: none;
-    padding: 60px 60px 0 60px;
-    display: inline;
-    font-size: 32px;
-    font-weight: 200;
+    padding-left: 20px;
+    padding-right: 10px;
+    display: inline-flex;    
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    align-content:center;
+    flex-direction: row;
 }
 
 li a {
@@ -73,29 +74,11 @@ li a:hover {
 .home {
     height: 600px;
     border-bottom: 1px solid rgb(10, 54, 10);
-    border-top: 1px solid rgb(10, 54, 10);
-}
-
-#home-img {
-    background-image: url(../images/two-gamers.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:bottom;
-    height: 100%;
-    padding: 0px;
+    /* border-top: 1px solid rgb(10, 54, 10); */
+    background: url(../images/two-gamers.jpg) no-repeat cover bottom;
     overflow: hidden;
 }
 
-
-
-#foreground-color {
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(3px);
-    z-index: 0;
-    background-color: rgba(4, 7, 4, 0.2);
-    border: 1px solid transparent;
-}
 
 #welcome {
 
@@ -246,6 +229,42 @@ li a:hover {
     margin-bottom: 30px;
     text-shadow: 4px 10px 10px black;
 }
+
+
+/* Media Query Nav */
+
+@media only screen and (min-width: 769px) {
+    nav li {
+        font-weight: 200;
+    }
+
+    #logo {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+    
+    nav li{
+        border-bottom:#66ff6e 1px solid;
+        padding: 20px;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    nav {
+        display: block;
+        justify-content: center;
+    }
+
+}
+
 
 /* media quaries for about us section */
 
