@@ -27,7 +27,6 @@ h1, h2 {
 
 #logo-container {
    padding: 20px;
-   
    display: inline-block;
 }
 
@@ -74,16 +73,19 @@ li a:hover {
 .home {
     height: 600px;
     border-bottom: 1px solid rgb(10, 54, 10);
-    /* border-top: 1px solid rgb(10, 54, 10); */
-    background: url(../images/two-gamers.jpg) no-repeat cover bottom;
+    border-top: 1px solid rgb(10, 54, 10);
+    background-image: url(../images/two-gamers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
     overflow: hidden;
+    
 }
 
-
 #welcome {
+    display: flex;
+    max-width: 60%;
 
-    max-width: 30%;
-    margin: 0 auto;
     padding-top: 70px;
 }
 
@@ -93,7 +95,6 @@ li a:hover {
     color: white;
     text-shadow: 5px 5px 3px black;
     text-align: center;
-    margin-bottom: 80px;
 }
 
 #welcome a {
