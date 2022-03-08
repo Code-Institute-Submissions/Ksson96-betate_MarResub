@@ -91,14 +91,16 @@ li a:hover {
     background-color: rgba(0, 0, 0, 0.7);
     border: 1px solid #07aa0f;
     color: #07aa0f;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 500;
     font-family: Anton;
     letter-spacing: 0.3rem;
     text-shadow: 5px 5px 3px #000;
-    text-align: center;
-    padding: 30px;
-    
+    padding: 30px;   
+}
+
+#welcome > span {
+    text-align: left;
 }
 
 
@@ -108,15 +110,17 @@ li a:hover {
     font-size: 2rem;
     background-color:black;
     margin: 0 auto;
-    color: #fff;  
     border: 1px solid #07aa0f;
+    color: #fff;
     border-radius: 2px;
     padding: 15px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 #home-apply:hover {
+    color: #07aa0f;   
     border:1px solid #fff;
-    color: #07aa0f; 
 }
 
 /* Partner logo */
@@ -135,35 +139,32 @@ li a:hover {
 }
 
 .partner-container {
+    display: flex;
+
     height: 100%;
     width: 80%;
     margin: 0 auto;
 }
 
+.partner-row {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
 
 .partner-col {
+    
+    flex-direction: row;
     width: 20%;
-    height: 75%;
-    text-align: center;
-    display:inline-block;
-    padding-left: 30px;
-    margin-top: 20px;
+}
+
+.partner-col > img {
+    max-width: 100%;
 }
 
 
-.partner-col img {
 
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-    text-shadow: 5px 5px 10px black;
-    max-height: 50%;
-    margin-bottom: 20px;
-}
 
-#ea {
-    max-width: 50%;
-}
 
 .partner-container h4 {
     color: white;
@@ -268,8 +269,15 @@ li a:hover {
 
 @media only screen and (max-width: 480px) {
     #welcome {
-        font-size: 2rem;
+        font-size: 1.5rem;
         width: 100%;
+}
+
+#home-apply {
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
 }
 
 
