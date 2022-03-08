@@ -135,8 +135,8 @@ li a:hover {
     text-decoration: underline;
     font-weight: 300;
     text-align: center;
-    padding-top: 20px;
-    
+    padding-top: 10px;
+    font-size: 2rem;
 }
 
 .partner-container {
@@ -151,7 +151,6 @@ li a:hover {
     flex-direction: row;
     align-items: center;
     width: 100%;
-    
 }
 
 .partner-col {
@@ -159,66 +158,47 @@ li a:hover {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding-bottom: 15px;
-    
 }
 
 .partner-col > img {
-    max-width: 60%;
+    max-width: 50%;
 }
-
 
 /* About Us */
 
-#about-container {
-    height: 700px;
+#about-section {
+    height: fit-content;
     border-bottom: 1px solid rgb(10, 54, 10);
     border-top: 1px solid rgb(10, 54, 10);
-    
-}
-
-#about-bg {
     background-image: url('../images/about-bg.jpg');
-    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    background-position: center;
 }
 
-#about-content {
-    max-width: 90%;
-    margin-left: 5%;
+#about-container {
+    height: fit-content;
 }
 
-#about-content-bg {
-    border: solid 0.5px green;
-    background-color: rgba(4, 7, 4, 0.5);
-    width: 50%;
-    position:relative;
-    text-align: left;
-    margin-top: 5%;
-    margin-left: 25%;
-    max-height: 80%;
-    overflow-x: hidden;
+#about-container > div {
+    border: 1px dotted #07aa0f;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 2rem;
 }
 
-#about-content h2 {
-    display: inline-block;
+#about-container h2 {
     color: white;
     text-shadow: 4px 10px 10px black;
     border-bottom: solid 1px white;
-    font-size: xx-large;
+    font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 4px;
-    margin-top: 30px;
 }
 
-#about-content p {
+#about-container p {
     color:white;
-    font-size: 28px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    text-shadow: 4px 10px 10px black;
+    font-size: 1rem;
+    text-shadow: 1px 1px 1px #07aa0f;
 }
 
 
@@ -252,7 +232,6 @@ li a:hover {
 
 }
 
-
 /* Welcome Page Media Queries */ 
 
 @media only screen and (max-width: 480px) {
@@ -277,37 +256,19 @@ li a:hover {
     }
 }
 
-/* media quaries for about us section */
+/* About Us Media Queries */
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-    #about-content-bg {
-        width: 95%;
-        margin-left: 2.5%;
-        margin-top: 17%;
+@media only screen and (min-width: 992px) {
+    #about-container {
+        padding: 4rem;
     }
-}
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-    #about-content-bg {
-        width: 90%;
-        margin-left: 5%;
-        margin-top: 10%;
+    #about-container p {
+        font-size: 1.4rem;
     }
-}
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-    #about-content-bg {
-        width: 90%;
-        margin-left: 5%;
-        margin-top: 7.5%;
-    }
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1200px) {
-    #about-content-bg {
-        width: 70%;
-        margin-left: 15%;
-        margin-top: 5%;
+    #about-container h2 {
+        font-size: 2rem;
     }
 }
 
@@ -316,24 +277,22 @@ li a:hover {
 #form-section {
     background-color: black;
     height: 800px;
-    padding: 1px;
 }
 
 #form-container {
     height: 700px;
-    width: 60%;
+    width: 100%;
     color: white;
     border: solid 1px green;
     font-size: 24px;
     margin: 0 auto;
-    margin-top: 30px;
+    
 }
 
 form {
     width: 80%;
-    margin-top: 30px;
-    margin-left: 10%;
-    overflow: hidden;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 form input {
@@ -371,67 +330,37 @@ textarea {
 
 #form-container h3 {
     text-transform: uppercase;
-    font-size: xx-large;
-    max-width: 30%;
+    font-size: 2rem;
     letter-spacing: 2px;
     margin-left: 10%;
     text-decoration: underline;
-    margin-top: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
-/* Media Queries form section */
+/* Media Queries Form Section */
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-    #form-container {
-        width: 90%;
-        margin-left: 5%;
-        height: auto;
+@media only screen and (min-width: 1200px) {
+    #form-container{
+        width: 80%;
     }
 
-    #submit {
-        margin-bottom: 10px;
-        font-size: 75%;
-    }
-}
-
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-    #form-container {
-        width: 90%;
-        margin-left: 5%;
-        height: auto;
-    }
-
-    #submit {
-        margin-bottom: 10px;
-        font-size: 75%;
+    #form-section {
+        padding: 30px;
+        
     }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-    #form-container {
-        width: 90%;
-        margin-left: 5%;
-        height: auto;
+@media only screen and (max-width: 768px) {
+    form {
+        font-size: 1rem;
     }
 
-    #submit {
-        margin-bottom: 10px;
-        font-size: 75%;
+    form > input {
+        font-size: 1.5rem;
     }
 }
 
-@media only screen and (min-width: 1025px) and (max-width: 1200px) {
-    #form-container {
-        width: 90%;
-        margin-left: 5%;
-        height: auto;
-    }
-
-    #submit {
-        margin-bottom: 10px;
-        font-size: 75%;
-    }
-}
 
 
 #submit {
