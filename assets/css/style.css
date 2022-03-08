@@ -127,58 +127,46 @@ li a:hover {
 
 .partners {
     background-color: black;
-    height: 400px;
+    height: fit-content;
 }
 
 #partner-heading {
-    color: white;
+    color: #fff;
+    text-decoration: underline;
     font-weight: 300;
     text-align: center;
     padding-top: 20px;
-    font-size: xx-large;
+    
 }
 
 .partner-container {
     display: flex;
-
+    flex-direction: column;
+    align-items: center;
     height: 100%;
-    width: 80%;
-    margin: 0 auto;
 }
 
 .partner-row {
     display: flex;
-    flex-direction: column;
-    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    
 }
 
 .partner-col {
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 15px;
     
-    flex-direction: row;
-    width: 20%;
 }
 
 .partner-col > img {
-    max-width: 100%;
+    max-width: 60%;
 }
 
-
-
-
-
-.partner-container h4 {
-    color: white;
-    max-width: 100%;
-    max-height: 100px;
-    font-weight: 700;
-    font-size: 36px;
-}
-
-
-
-.partner-name:hover {
-    text-decoration: underline;
-}
 
 /* About Us */
 
@@ -186,7 +174,7 @@ li a:hover {
     height: 700px;
     border-bottom: 1px solid rgb(10, 54, 10);
     border-top: 1px solid rgb(10, 54, 10);
-    padding: 0px; 
+    
 }
 
 #about-bg {
@@ -194,7 +182,7 @@ li a:hover {
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden; 
+    
 }
 
 #about-content {
@@ -273,13 +261,21 @@ li a:hover {
         width: 100%;
 }
 
-#home-apply {
-    font-size: 1.5rem;
-    padding: 5px;
-}
+    #home-apply {
+        font-size: 1.5rem;
+        padding: 5px;
+    }
 
 }
 
+/* Partners Media Queries */ 
+
+@media only screen and (max-width: 480px) {
+
+    #partner-heading {
+        font-size: 1rem;
+    }
+}
 
 /* media quaries for about us section */
 
