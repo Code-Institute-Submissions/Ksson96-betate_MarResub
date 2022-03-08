@@ -82,45 +82,41 @@ li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #welcome {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background-color: rgba(0, 0, 0, 0.7);
     border: 1px solid #07aa0f;
-    padding: 30px;
-}
-
-#welcome>h2 {
-    font-size: 4rem;
+    color: #07aa0f;
+    font-size: 3rem;
     font-weight: 500;
     font-family: Anton;
-    letter-spacing: 0.5rem;
-    color: #07aa0f;
+    letter-spacing: 0.3rem;
     text-shadow: 5px 5px 3px #000;
     text-align: center;
+    padding: 30px;
+    
 }
 
-#welcome a {
-    color: white;
-    font-size: 30px;
-    text-align: center;
-}
 
 #home-apply {
-    font-size: 2.5rem;
+    display: block;
     font-family: Anton;
+    font-size: 2rem;
     background-color:black;
     margin: 0 auto;
+    color: #fff;  
     border: 1px solid #07aa0f;
     border-radius: 2px;
     padding: 15px;
 }
 
 #home-apply:hover {
-    color: #07aa0f;
+    border:1px solid #fff;
+    color: #07aa0f; 
 }
 
 /* Partner logo */
@@ -249,10 +245,6 @@ li a:hover {
     }
 }
 
-@media only screen and (max-width: 769px) {
-
-}
-
 @media only screen and (max-width: 480px) {
     
     nav li{
@@ -269,6 +261,15 @@ li a:hover {
         justify-content: center;
     }
 
+}
+
+
+/* Welcome Page Media Queries */ 
+
+@media only screen and (max-width: 480px) {
+    #welcome {
+        font-size: 2rem;
+        width: 100%;
 }
 
 
