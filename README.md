@@ -1,46 +1,85 @@
-BetaEx 
+# BetaEx
 
-BetaEx is an sign up portal for the casual gamer looking to apply to a beta testing program aimed at providing game developers with sufficient testers for the development of their upcoming games. 
+BetaEx is an sign up portal for the casual gamer looking to apply to a beta testing program in collaboration with game studios in order to provide game developers with sufficient feedback for the development of their upcoming games. In return, applicants will be rewarded with redeemable game codes.
 
-Website visitors will get to know the philosophy behind the program as well as being able to apply to the program through our application form. Businesses will be able to gather any contact information necessary in order to join the partner program. 
+## Table of Contents
 
-The aim is to provide the casual gamer with the insight of the development process of games and in return, they will get redeemable game keys for the time they put in. The developer will then get a better understanding of the gamer experience and be able to put that feedback into use before releasing the finished product.
-Features 
-Header
-The header shows the logo of the website which is located on the left side of the header.
-The logo color matches the neon green style across the rest of the page.
-The navigation menu is located on the far right side of the page.
-  Navigation
+1. [UX](#ux)
+    - [Visitor Goals](#visitor-goals)
+    - [User Stories](#user-stories)
+    - [Design Choices](#design-choices)
 
-The navigation menu shows all links that can redirect you to another part of the page.
-The links are the following: Home, About us, Apply & Contact
-The font color is pure white to give a good contrast to the background color of the page
-The font style used is aimed at staying true to similar fonts within games and similar commercial material aimed towards gamers.
-The navigation menu will redirect the user further down the page and not open a new window
+2. [Content](#content)
+    - [Existing Content](#exisiting-content)
+    - [Future Goals](#future-goals)
 
-Didn’t have to time to show all features in this README.
+3. [Technology Used](#technology-used)
+
+4. [Testing](#testing)
+
+5. [Deployment](#deployment)
+
+6. [Credits](#credits)
+
+# UX
+
+### Project Goals
+The final idea was to create an easy to navigate platform where gamers could apply to be part of a game testing program with a site that gives a clear description of the purpose behind it.
+
+### User Stories
+- As a User I want to be able to see what game studios I will be testing games for.
+- As a User I want an easy way to find contact details in order to join the program as a game developer.
+- As a User I want to quickly be able to navigate to the application form.
+
+### Design Choices
+
+#### Fonts
+
+The fonts used are Abel & Anton. 
+
+Anton was used for the headings since it worked well with single word use as the general thickness was quite high which made it stand out.
+
+Abel however was primarily used for longer paragraphs of text alongisde the navigation menu and the form to keep those areas less cluttered. 
+
+#### Colours
+
+The idea was to make a site that resonates with gamers and therefore the primary colours were white (#fff) text and light green (#07aa0f) borders on a black (#000) background. 
+Some darker variations of (#07aa0f) were used for borders in order to create a sense of depth on around some of the sections.
+
+## Features
+
+### Exisiting Content
+
+#### Header
+![Image of Header](docs/
+
+#### About Us
 
 
-Testing
-
-Validation:
-HTML
+#### Apply
 
 
+#### Contact
 
 
-These are the remaining errors to fix from having a fully validated html code. 
+### Future Goals
 
-CSS
-
-
-Cross browsing
-
-Passed through Chrome, Firefox & Safari
+To create a better sense of community, future goals include creating topics that posts can be categorized into to seperate interests and discussions to the users chosen subjects. And to keep the discussion going, a notification system would help to alert users when a user interracts with their posts. 
 
 
-Responsiveness
+## Technology Used
 
-Website is not fully responsive!
+### Languages
 
-I couldn't find any information on how I'm suppose to add images to readme. Validation and navbar images are located in docs folder. 
+- HTML
+- CSS
+
+## Testing
+
+No automated testing has been used on this project.
+
+### Validation
+
+### Bugs
+
+## Credits
