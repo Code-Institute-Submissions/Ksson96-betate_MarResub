@@ -8,14 +8,14 @@
 
 body {
     font-family: Abel, sans-serif;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #000;
 }
 
 a {
     text-decoration: none;
 }
 
-/*Header and Nav*/
+/* Navigation */
 
 header {
     width: 100%;
@@ -53,7 +53,7 @@ nav li {
     display: inline-flex;    
 }
 
-ul {
+nav > ul {
     display: flex;
     justify-content: right;
     align-content:center;
@@ -69,6 +69,8 @@ li a:hover {
     text-decoration: underline;
     color:#66ff6e;
 }
+
+/* Welcome Page */ 
 
 .home {
     height: 600px;
@@ -88,7 +90,7 @@ li a:hover {
 #welcome {
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #000;
     border: 1px solid #07aa0f;
     color: #07aa0f;
     font-size: 2.5rem;
@@ -108,7 +110,6 @@ li a:hover {
     display: block;
     font-family: Anton;
     font-size: 2rem;
-    background-color:black;
     margin: 0 auto;
     border: 1px solid #07aa0f;
     color: #fff;
@@ -123,10 +124,9 @@ li a:hover {
     border:1px solid #fff;
 }
 
-/* Partner logo */
+/* Partner Section */
 
 .partners {
-    background-color: black;
     height: fit-content;
 }
 
@@ -204,7 +204,6 @@ li a:hover {
 /* Application Form */
 
 #form-section {
-    background-color: black;
     height: 800px;
 }
 
@@ -268,6 +267,69 @@ textarea {
     background-color:rgb(19, 19, 19);
 }
 
+/* Footer */
+
+
+footer {
+    display: flex;
+    height: fit-content;
+    border-top: solid green 2px;
+}
+
+/* Contact Info */
+
+#contact-info {
+    color: #fff;
+    display: inline-block;
+}
+
+#contact-info h4 {
+    text-decoration: underline;
+    padding: 20px 0 0 20px;
+}
+
+#contact-info ul {
+    list-style: none;
+
+}
+
+#contact-info li {
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 20px;
+
+}
+
+/* Social Media Container */ 
+
+#social-media-container{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#social-media-container h4 {
+
+    color:white;
+    padding-bottom: 15px;
+}
+
+#social-media li {
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+
+#social-media i {
+    font-size: 2rem;
+    color: green;
+    text-decoration: none;
+}
+
+
+
+
+
 /* Media Query Nav */
 
 @media only screen and (min-width: 769px) {
@@ -287,7 +349,7 @@ textarea {
         padding: 20px;
     }
 
-    ul {
+    nav > ul {
         flex-direction: column;
     }
 
@@ -369,71 +431,18 @@ textarea {
     }
 }
 
+/* Media Queries Footer */ 
 
-footer {
-    height: 200px;
-    border-top: solid green 2px;
-    bottom: 0;
-    left: 0;
-    right: 0;
+@media only screen and (max-width: 768px) {
+    #contact-info li {
+        display: block;
+    }
+
+    footer {
+        justify-content: space-between;
+    }
+
+    #social-media-container {
+        padding: 20px 5px 0 0;
+    }
 }
-
-
-footer div {
-    height: 100%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    float:left;
-    display:inline;
-    background-color:black;
-    width: 50%;
-}
-
-#social-media-container{
-    text-align: center;
-}
-
-#social-media-container h4 {
-
-    color:white;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    width:fit-content;
-    font-size: larger;
-    display:inline-block;
-}
-
-#social-media li {
-    color: white;
-    display: inline-block;
-    width: 30%;
-}
-
-#social-media i {
-    font-size: 250%;
-    color: green;
-    text-decoration: none;
-}
-
-#contact-info ul {
-    list-style: none;
-    margin-top: 20px;
-    margin-left: 5%;
-}
-
-#contact-info h4 {
-    color: white;
-    text-decoration: underline;
-    margin-top: 20px;
-    margin-left: 5%;
-}
-
-#contact-info li {
-    color: white;
-    margin-top: 5px;
-}
-
-
-
-
