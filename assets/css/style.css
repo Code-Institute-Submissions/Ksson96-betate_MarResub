@@ -15,31 +15,16 @@ a {
     text-decoration: none;
 }
 
-/* Navigation */
+h1, h2 {
+    font-family: Anton, sans-serif;
+}
 
 header {
     width: 100%;
     background-color: black;
 }
-h1, h2 {
-    font-family: Anton, sans-serif;
-}
 
-#logo-container {
-   padding: 20px;
-   display: inline-block;
-}
-
-#logo {
-    font-weight: 300;
-    color: #66ff6e;
-    text-shadow: 2px 2px black;
-    
-}
-
-#logo>span {
-    color: green;
-}
+/* Navigation */
 
 nav {
     display: inline-flex;
@@ -70,6 +55,21 @@ li a:hover {
     color:#66ff6e;
 }
 
+#logo-container {
+    padding: 20px;
+    display: inline-block;
+ }
+ 
+ #logo {
+     font-weight: 300;
+     color: #66ff6e;
+     text-shadow: 2px 2px black;
+ }
+ 
+ #logo>span {
+     color: #07aa0f;
+ }
+
 /* Welcome Page */ 
 
 .home {
@@ -84,7 +84,6 @@ li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 #welcome {
@@ -345,6 +344,7 @@ footer {
 }
 
 @media only screen and (min-width: 769px) {
+
     nav li {
         font-weight: 200;
     }
@@ -352,6 +352,7 @@ footer {
     #logo {
         font-size: 2.5rem;
     }
+
 }
 
 /* Welcome Page */ 
@@ -360,7 +361,7 @@ footer {
     #welcome {
         font-size: 1.5rem;
         width: 100%;
-}
+    }
 
     #home-apply {
         font-size: 1.5rem;
@@ -376,11 +377,13 @@ footer {
     #partner-heading {
         font-size: 1rem;
     }
+
 }
 
 /* About Us */
 
 @media only screen and (min-width: 992px) {
+
     #about-container {
         padding: 4rem;
     }
@@ -397,7 +400,8 @@ footer {
 /* Form Section */
 
 @media only screen and (min-width: 1200px) {
-    #form-container{
+
+    #form-container {
         width: 80%;
         margin: 0 auto;
         margin-top: 30px;
@@ -408,6 +412,7 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+
     form {
         font-size: 1rem;
     }
@@ -423,11 +428,13 @@ footer {
     input, textarea {
         width: 100%;
     }
+
 }
 
 /* Footer */ 
 
 @media only screen and (max-width: 768px) {
+
     #contact-info li {
         display: block;
     }
@@ -439,4 +446,5 @@ footer {
     #social-media-container {
         padding: 20px 5px 0 0;
     }
+    
 }
