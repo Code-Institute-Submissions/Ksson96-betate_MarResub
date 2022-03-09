@@ -249,6 +249,7 @@ input:focus {
 
 textarea {
     display: block;
+    color: #fff;
     border-radius: 3px;
     width: 90%;
     resize: none;
@@ -417,10 +418,6 @@ footer {
 
     form {
         font-size: 1rem;
-    }
-
-    form > input {
-        font-size: 1.5rem;
     }
 
     #form-heading {
