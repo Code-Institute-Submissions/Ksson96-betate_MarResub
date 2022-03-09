@@ -95,7 +95,6 @@ The Footer consists of contact information for game companies aswell as links to
 ![Image of Jigsaw Validation](docs/css-validation.JPG)
 - W3C Markup Validator (HTML) - Returned 1 Warning
 ![Image of W3C Markup Validation](docs/Html-validation.JPG)
-
 - Lighthouse
 ![Image of Lighthouse Report](docs/Lighthouse.JPG)
 
@@ -103,11 +102,11 @@ The Footer consists of contact information for game companies aswell as links to
 - No know bugs at the moment of deployment
 
 # Deployment
--The site was deployed to GitHub pages.
--In github repository, go to settings.
--Select master branch as source location. 
--Press the provided link
--Site is accessible via [BetaEx](https://ksson96.github.io/betate/)
+- The site was deployed to GitHub pages.
+- In github repository, go to settings.
+- Select master branch as source location. 
+- Press the provided link
+- Site is accessible via [BetaEx](https://ksson96.github.io/betate/)
 
 # Credits
 - Credit goes to my newfound understanding of the concepts covered in this project.
