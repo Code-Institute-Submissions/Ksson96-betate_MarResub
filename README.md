@@ -19,6 +19,8 @@ BetaEx is an sign up portal for the casual gamer looking to apply to a beta test
 
 4. [Deployment](#deployment)
 
+5. [Credits](#credits) 
+
 # UX
 
 ### Project Goals
@@ -106,3 +108,6 @@ The Footer consists of contact information for game companies aswell as links to
 -Select master branch as source location. 
 -Press the provided link
 -Site is accessible via [BetaEx](https://ksson96.github.io/betate/)
+
+# Credits
+- Credit goes to my newfound understanding of the concepts covered in this project.
