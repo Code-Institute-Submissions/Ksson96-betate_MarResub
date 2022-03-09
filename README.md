@@ -2,45 +2,87 @@ BetaEx
 
 BetaEx is an sign up portal for the casual gamer looking to apply to a beta testing program aimed at providing game developers with sufficient testers for the development of their upcoming games. 
 
-Website visitors will get to know the philosophy behind the program as well as being able to apply to the program through our application form. Businesses will be able to gather any contact information necessary in order to join the partner program. 
+# The "We" Forum
 
-The aim is to provide the casual gamer with the insight of the development process of games and in return, they will get redeemable game keys for the time they put in. The developer will then get a better understanding of the gamer experience and be able to put that feedback into use before releasing the finished product.
-Features 
-Header
-The header shows the logo of the website which is located on the left side of the header.
-The logo color matches the neon green style across the rest of the page.
-The navigation menu is located on the far right side of the page.
-  Navigation
+The "We" Forum is a forum website aimed at building a community of people where users are able to share and discuss common interests and topics.
 
-The navigation menu shows all links that can redirect you to another part of the page.
-The links are the following: Home, About us, Apply & Contact
-The font color is pure white to give a good contrast to the background color of the page
-The font style used is aimed at staying true to similar fonts within games and similar commercial material aimed towards gamers.
-The navigation menu will redirect the user further down the page and not open a new window
+## Table of Contents
 
-Didn’t have to time to show all features in this README.
+1. [UX](#ux)
+    - [Visitor Goals](#visitor-goals)
+    - [User Stories](#user-stories)
+    - [Design Choices](#design-choices)
 
+2. [Features](#features)
+    - [Existing Features](#exisiting-features)
+    - [Future Goals](#future-goals)
 
-Testing
+3. [Technology Used](#technology-used)
 
-Validation:
-HTML
+4. [Testing](#testing)
 
+5. [Deployment](#deployment)
 
+6. [Credits](#credits)
 
+# UX
 
-These are the remaining errors to fix from having a fully validated html code. 
-
-CSS
+## Visitor Goals
 
 
-Cross browsing
+### User Stories
 
-Passed through Chrome, Firefox & Safari
+#### User
 
 
-Responsiveness
 
-Website is not fully responsive!
+### Design Choices
 
-I couldn't find any information on how I'm suppose to add images to readme. Validation and navbar images are located in docs folder. 
+#### Fonts
+
+The primary font 
+
+The secondary font
+
+#### Colours
+
+The design in itself is quite dark where the primary background color for all containers is a mix between #292b2c, #363940 & #000. In order to make text and other elements stand out I opted for a pure white #fff and primarily a bright yellow #FFCF74.
+
+## Features
+
+### Exisiting Features
+
+#### Post Overview
+
+
+#### Post Details
+
+
+#### Comment Section
+
+
+
+#### Contact
+
+
+### Future Goals
+
+To create a better sense of community, future goals include creating topics that posts can be categorized into to seperate interests and discussions to the users chosen subjects. And to keep the discussion going, a notification system would help to alert users when a user interracts with their posts. 
+
+
+## Technology Used
+
+### Languages
+
+- HTML
+- CSS
+
+## Testing
+
+No automated testing has been used on this project.
+
+### Validation
+
+### Bugs
+
+## Credits
