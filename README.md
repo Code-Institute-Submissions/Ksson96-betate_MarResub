@@ -1,10 +1,6 @@
-BetaEx 
+# BetaEx
 
-BetaEx is an sign up portal for the casual gamer looking to apply to a beta testing program aimed at providing game developers with sufficient testers for the development of their upcoming games. 
-
-# The "We" Forum
-
-The "We" Forum is a forum website aimed at building a community of people where users are able to share and discuss common interests and topics.
+BetaEx is an sign up portal for the casual gamer looking to apply to a beta testing program in collaboration with game studios in order to provide game developers with sufficient feedback for the development of their upcoming games. In return, applicants will be rewarded with redeemable game codes.
 
 ## Table of Contents
 
@@ -13,8 +9,8 @@ The "We" Forum is a forum website aimed at building a community of people where 
     - [User Stories](#user-stories)
     - [Design Choices](#design-choices)
 
-2. [Features](#features)
-    - [Existing Features](#exisiting-features)
+2. [Content](#content)
+    - [Existing Content](#exisiting-content)
     - [Future Goals](#future-goals)
 
 3. [Technology Used](#technology-used)
@@ -27,39 +23,40 @@ The "We" Forum is a forum website aimed at building a community of people where 
 
 # UX
 
-## Visitor Goals
-
+### Project Goals
+The final idea was to create an easy to navigate platform where gamers could apply to be part of a game testing program with a site that gives a clear description of the purpose behind it.
 
 ### User Stories
-
-#### User
-
-
+- As a User I want to be able to see what game studios I will be testing games for.
+- As a User I want an easy way to find contact details in order to join the program as a game developer.
+- As a User I want to quickly be able to navigate to the application form.
 
 ### Design Choices
 
 #### Fonts
 
-The primary font 
+The fonts used are Abel & Anton. 
 
-The secondary font
+Anton was used for the headings since it worked well with single word use as the general thickness was quite high which made it stand out.
+
+Abel however was primarily used for longer paragraphs of text alongisde the navigation menu and the form to keep those areas less cluttered. 
 
 #### Colours
 
-The design in itself is quite dark where the primary background color for all containers is a mix between #292b2c, #363940 & #000. In order to make text and other elements stand out I opted for a pure white #fff and primarily a bright yellow #FFCF74.
+The idea was to make a site that resonates with gamers and therefore the primary colours were white (#fff) text and light green (#07aa0f) borders on a black (#000) background. 
+Some darker variations of (#07aa0f) were used for borders in order to create a sense of depth on around some of the sections.
 
 ## Features
 
-### Exisiting Features
+### Exisiting Content
 
-#### Post Overview
+#### Header
+![Image of Header](docs/
+
+#### About Us
 
 
-#### Post Details
-
-
-#### Comment Section
-
+#### Apply
 
 
 #### Contact
